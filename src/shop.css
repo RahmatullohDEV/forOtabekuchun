@@ -1,0 +1,196 @@
+/* shopNav style */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.shop{
+    position: fixed;
+    z-index: 1;
+    width: 90%;
+}
+
+nav {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 58, 115);
+}
+
+.logo1{
+    display:flex;
+    align-items: center;
+}
+
+.logo1 input{
+    margin:  20px 50px;
+    border:none;
+    border-radius:20px;
+    padding: 7px 15px;
+    outline: none;
+}
+
+.logo1 i{
+   transform: translateX(-480%); 
+   margin-top: 2px;
+}
+
+.logo1 p {
+    position: fixed;
+    z-index: 1;
+    left: 51px;
+    top: 0px;
+    color: aliceblue;
+    background-color: rgb(255, 77, 0);
+    padding: 2px 10px ;
+    border-radius: 50px 50px 10px 10px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.icon i{ 
+    cursor: pointer;
+    margin-left: 136px;
+    font-size: 30px;
+    color:white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 20px;
+    border-radius: 0 40px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+nav ul li:hover {
+    color: rgb(255, 119, 0);
+}
+
+.cards{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Card{
+    padding: 30px 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(180, 180, 180);
+    width: 250px;
+    height: 380px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.Card img{
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+}
+
+.Card h3{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+    color: rgb(50, 50, 50);
+    font-weight: 900;
+}
+
+.Card h5{
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(255, 0, 0);
+    margin-top: -5px;
+}
+
+.Card h4{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: -40px;
+}
+
+
+.Card p{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    background-color: rgb(255, 77, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    border: none;
+    background-color: rgb(0, 196, 92);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 164, 77);
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.navb i{
+    color:rgb(104, 254, 154);
+    display:flex;
+    font-size:25px;
+}
+
+.navb i:hover{
+    color:rgb(0, 255, 85);
+}
+
+.cards1{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    border: none;
+    background-color: rgb(251, 46, 46);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards1:hover{
+    background-color:rgb(248, 5, 5);
+}
+
+.navb p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 20px;
+    right: 97px;
+    font-size: 12px;
+    background-color: black;
+    padding: 2px;
+}
